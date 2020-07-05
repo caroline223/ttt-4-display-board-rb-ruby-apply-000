@@ -13,12 +13,3 @@ def display_board(board)
 end
 display_board(board)
 
-board_1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def display_board(board_1)
- puts  " #{board_1[0]}| #{board_1[1]}| #{board_1[2]} \n"
- puts  "-----------\n"
- puts  " #{board_1[3]}  | #{board_1[4]}  | #{board_1[5]}  \n"
- puts  "-----------\n"
- puts  " #{board_1[6]} |  #{board_1[7]}  | #{board_1[8]}  \n"
-end
-display_board(board_1)
